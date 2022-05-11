@@ -1,0 +1,427 @@
+body {
+background-color: lightpink;
+
+}
+/*H1 Styling for all pages and logo*/
+
+.Home1Logo::after {
+  content: "";
+  display: block;
+  clear: both;
+  }
+
+  .Temples1Logo::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+
+.Logo1:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+float: center;
+}
+
+.Home1 {
+float: left;
+color: purple;
+font-size: 50px;
+font-family: Garamond;
+}
+
+.Temples1 {
+  float: left;
+color: purple;
+font-size: 50px;
+font-family: Garamond;
+}
+
+.Geishas1 {
+  float: left;
+color: purple;
+font-size: 50px;
+font-family: Garamond;
+}
+
+
+.TeaCeremony1 {
+  float: left;
+color: purple;
+font-size: 50px;
+font-family: Garamond;
+}
+
+.Contact1 {
+  float: left;
+color: purple;
+font-size: 50px;
+font-family: Garamond;
+
+}
+
+/* Dropdown menu button styling */
+
+.Menubtn {
+  float: right;
+  background-color: lightpink;
+  color: purple;
+  font-style: Garamond;
+  padding: 20px;
+  font-size: 25px;
+  border: 15px;
+  border: 5px solid purple;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+  border: 15px;
+}
+
+.MenuContent {
+display: none;
+position: absolute;
+background-color: lightblue;
+min-width: 150px;
+
+
+}
+
+.MenuContent a {
+color: purple;
+font-style: Garamond;
+padding: 15px 17px;
+display: block;
+
+}
+
+.MenuContent a:hover {background-color: lightblue;}
+.dropdown:hover .MenuContent {display: block;}
+.dropdown:hover .Menubtn {background-color: lightblue;}
+
+/*End of Menu styling */
+
+
+/*Home page styling*/
+/*could not make animated menu button work - used transition, failed*/
+
+.Welcome1 {
+  text-align: left;
+  float: left;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+.Welcome2 {
+  text-align: left;
+  float: left;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+.Container1::after {
+content: "";
+display: block;
+clear: both;
+}
+
+.JFlag1 {
+  float: left;
+  background-color: lightpink;
+  width: 601px;
+  height: 378px;
+  margin: 20px;
+}
+
+.Par1 {
+  float: center;
+  font-size: 30px;
+  font-family: Garamond;
+  color: purple;
+}
+
+.SlideShow2::after {
+content: "";
+display: block;
+clear: both;
+  float: center;
+    background-color: lightpink;
+    text-align: left;
+    color: purple;
+    opacity: 1;
+    font-family: Garamond;
+    font-size: 15px;
+
+}
+.Video1 {
+  background-color: lightpink;
+  width: 100%;
+  float: center;
+}
+
+.Par2 {
+  float: center;
+  font-size: 30px;
+  font-family: Garamond;
+  color: purple;
+}
+
+/*animation used on different page now, left style in this section*/
+.Animation1 {
+  float: left;
+  background-color: lightpink;
+  width: 481px;
+  height: 265px;
+}
+
+/*Fallback message styling*/
+.Videofallback1 {
+  color: purple;
+  font-size: 15px;
+  font-family: Garamond;
+  font-style: italic;
+  margin: 1px;
+  padding: 3px;
+  border: 3px solid purple;
+
+}
+
+/*Footer style - applied on all pages*/
+.Footer1 {
+  float: left;
+  background-color: lightpink;
+  text-align: left;
+  color: purple;
+  opacity: 1;
+  font-family: Garamond;
+  font-size: 10px;
+  margin: 1px;
+  padding: 1px;
+  box-sizing: 50%;
+}
+
+
+.StoryMap1::after {
+content: "";
+display: block;
+clear: both;
+}
+
+.StoryMap2 {
+  float: left;
+  width: 65%;
+margin: 30px;
+}
+
+.Par3 {
+  float: center;
+  font-size: 45px;
+  font-family: Garamond;
+  color: purple;
+}
+
+.Par4 {
+  float: center;
+  font-size: 30px;
+  font-family: Garamond;
+  color: purple;
+}
+
+/*Temples Page styling*/
+.History1 {
+  float: center;
+    background-color: lightpink;
+    text-align: left;
+    color: purple;
+    opacity: 1;
+    font-family: Garamond;
+    font-size: 30px;
+    }
+
+.TemplesContainer::after {
+content: "";
+display: block;
+clear: both;
+}
+
+.Temples6 {
+  float: left;
+    margin: 15px;
+}
+
+.TopTemples{
+  float: center;
+  color: purple;
+  font-size: 35px;
+  font-family: Garamond;
+}
+
+.TemplesList {
+  float: center;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+.ReligionSection::after {
+content: "";
+display: block;
+clear: both;
+}
+
+.ReligionsSlide {
+  float: left;
+  width: 720px;
+  height: 405px;
+  margin: 15px;
+}
+
+.ReligionTxt {
+  float: center;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+/*Geisha Pages Styling*/
+.GPar1 {
+  float: center;
+  color: purple;
+}
+
+.Gh1 {
+  font-size: 35px;
+  font-family: Garamond;
+}
+
+.Gh2 {
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+.GeishaImage1::after {
+  content: "";
+  display: block;
+  clear: both;
+  }
+
+  .GImage1 {
+    float: left;
+    width: 25%;
+    margin: 20px;
+
+  }
+
+.Gh3 {
+  float: center;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+.MakeUpImgs {
+  color: purple;
+  font-size: 35px;
+  font-family: Garamond;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.Makeuptxt {
+  float: center;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+.AudioGh {
+  float: left;
+  background-color: lightpink;
+}
+
+.AudioFallback {
+  float: center;
+  color: purple;
+  font-size: 15px;
+  font-family: Garamond;
+  font-style: italic;
+  margin: 1px;
+  padding: 3px;
+  border: 3px solid purple;
+}
+
+
+/*Tea Ceremony page style */
+
+.TeaText1 {
+  float: left;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+.TeaVideotxt1 {
+  float: left;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+.TeaslideTxt {
+  float: left;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+.TeaList1 {
+  float: left;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+/*end of Tea Ceremony page style*/
+
+/*Contact page style*/
+.Contact2 {
+  float: left;
+  color: purple;
+  font-size: 25px;
+  font-family: Garamond;
+}
+
+
+.AnimationContact::after {
+content: "";
+display: block;
+clear: both;
+}
+
+.ContactTxt1 {
+  float: center;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+.Exittxt1 {
+  float: center;
+  color: purple;
+  font-size: 30px;
+  font-family: Garamond;
+}
